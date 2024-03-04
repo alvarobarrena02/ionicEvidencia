@@ -1,17 +1,39 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title>Sobre Nosotros</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <!-- Información sobre la misión y visión -->
+  <ion-card>
+    <img src="assets/img/cultural.jpg" alt="Nuestro Centro Cultural Armonía">
+    <ion-card-content>
+      <h2><b>Misión</b></h2>
+      <p>Nuestra misión es crear un espacio inclusivo donde la cultura y el arte sean accesibles para todos, fomentando un ambiente de respeto, aprendizaje y diversidad.</p>
+      <hr/>
+      <h2><b>Visión</b></h2>
+      <p>Aspiramos a ser un referente en la inclusión cultural, donde cada persona, independientemente de su capacidad, pueda experimentar, aprender y contribuir al arte y la cultura.</p>
+    </ion-card-content>
+  </ion-card>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <!-- Historia del centro -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Nuestra Historia</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Desde su fundación en 1995, el Centro Cultural Armonía ha sido un faro de creatividad y educación en nuestra comunidad. Conozca más sobre nuestro viaje desde nuestros humildes comienzos hasta convertirnos en un pilar cultural en la región.</p>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Equipo y colaboradores -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Nuestro Equipo</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Conoce al equipo dedicado detrás de Armonía. Nuestros profesionales de la cultura, educadores y voluntarios trabajan incansablemente para brindar experiencias significativas y accesibles para todos.</p>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
